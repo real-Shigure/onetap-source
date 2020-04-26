@@ -1,0 +1,16 @@
+1. go to your csgo directory and get the client_panorama.dll Steam\steamapps\common\Counter-Strike Global Offensive\csgo\bin\client_panorama
+2. run update.bat wait 5-10 seconds and then type "start" in the console and wait 1-2 min
+3. open insignia folder and open offsets.txt
+4. copy all offsets in the textfile.
+5. open the website "https://pinetools.com/add-text-each-line" and enter your offsets in the original textbox
+6. configure like shown in the screenshot https://i.imgur.com/QjTM9SB.png and press execute.
+7. copy the offsets in the new textbox.
+8. open the file SegmentUtils.h
+9. Replace the offsets with yours
+10. Replace all "NULL" to "0x000000" and add a , behind it
+11. build the solution in Release x86 Mode
+12. get the dll and inject it in csgo.
+13. have fun playing with ur updated otc!
+
+video tutorial by my friend.
+https://www.youtube.com/watch?v=JgMlcuaOE1g
