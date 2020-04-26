@@ -1,0 +1,2 @@
+﻿E:\VisualC\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  OTC.vcxproj -> D:\ONETAP.SU\OTC\OTC\DLL Debug\OTC.dll

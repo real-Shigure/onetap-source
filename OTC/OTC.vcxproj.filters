@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="header files\utils">
+      <UniqueIdentifier>{3b22cd39-1b20-4e4d-9c99-7566c4574878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\framework">
+      <UniqueIdentifier>{f3411615-32a3-47e7-88a2-93067b426817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\segment">
+      <UniqueIdentifier>{4c638d2c-daeb-4fde-8e4e-924abd099758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\patch">
+      <UniqueIdentifier>{6d52b353-fd61-479e-8cf8-e2326f9007c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source files\utils">
+      <UniqueIdentifier>{f88bb714-0b38-4471-a1cf-d4edef21bf46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\patch">
+      <UniqueIdentifier>{dba20b01-f38a-4c3f-8fc0-c3024612c763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\segment">
+      <UniqueIdentifier>{45ee3719-adfb-495a-8bad-1d903d79e134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\framework">
+      <UniqueIdentifier>{dc7abcc1-8afc-468b-ba53-96c43654169d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra shit">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>header files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUtils.h">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchManager.h">
+      <Filter>header files\patch</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>header files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>header files\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentHeader.h">
+      <Filter>header files\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentUtils.h">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUtils.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchManager.cpp">
+      <Filter>source files\patch</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentHeaderManager.cpp">
+      <Filter>source files\segment</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment.cpp">
+      <Filter>source files\segment</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>source files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentUtils.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
