@@ -10,12 +10,12 @@ set language=unknown
 echo.
 echo.
 echo		        @-------------------------------------------@
-echo 	        #					    #
+echo 	        	#					    #
 echo		        # ONETAP OFFSET UPDATER (working april 2020) #  
 echo		        #            SIGNATURES: 0x000cb             #
 echo		        #              SOFT: HoShiMin                #
-echo 	        #   Fixed by UnsereKleineHacker (HamburgerJoe)    #
-echo  	        #   					     #
+echo 	        	# Fixed by UnsereKleineHacker (HamburgerJoe) #
+echo  	        	#   					     #
 echo	 		#					    #
 echo		        @-------------------------------------------@
 echo.
